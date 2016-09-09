@@ -9,6 +9,7 @@ uses lua-lpeg
 ````
 > unquote = require "unquote"
 > unquote.golang("\"\"")
+
 > unquote.golang([["\u2603\n\u2603"]])
 ☃
 ☃
